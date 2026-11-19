@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+input:not([type="checkbox"]) {
+  display: block;
+  padding: 9px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #245a8d;
+  color: white;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 15px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
+
+.hash {
+  overflow-wrap: anywhere;
+}
